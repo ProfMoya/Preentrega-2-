@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana,Tahoma, serif;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+.logo-nav{
+    width: 50px;
+    padding-left: 2 ;
+}
+.navbar-brand{
+    padding: 12px;
+}
+nav{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    display: flex;
+    justify-content:center;
+    margin: 10px;
+}
+.img__logo{
+    width: 30px;
+    padding: 30px;
+}
+.header__menu{
+list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.header__link{
+    background-color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+.header__link:hover{
+    background-color:#03658C;
+    color:whitesmoke;
+    border-radius: 50px;
+    transition: .8s;
+}
+/* portada */
+.portada{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    padding: 100px;
+}
+/* comienzo main */
+.titulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 12px;
+}
+.foto1{
+    width: 12px;
+    height: 12px;
+}
+.texto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 5%;
+}
+.sub{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 12px;
+    text-align: center;
+    margin: 5%;
+}
+.sub:hover{
+    background-color:#4206b3;
+    color:whitesmoke;
+    border-radius: 30px;
+    transition: .7s;
+
+}
+.texto:hover{
+    background-color:#03658C;
+    color:whitesmoke;
+    border-radius: 30px;
+    transition: .5s;
+} 
+.yt{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: #03658C;
+    color: whitesmoke;
+    transition: .5s;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    border-radius: 4%;
+    margin-left: 47%;
+}
+button:hover{
+    color: rgb(0, 255, 255);
+}
+button span{
+    position: absolute;
+    background-color: white;
+    transition: .5s;
+}
+button span:nth-child(1){
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: -100%;
+}
+button span:nth-child(2){
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    right: -100%;
+}
+button span:nth-child(3){
+    width: 1px;
+    height: 100%;
+    bottom: -100%;
+    right: 0;
+}
+button span:nth-child(4){
+    width: 1px;
+    height: 100%;
+    top: -100%;
+    right:0;
+}
+button:hover span:nth-child(1){
+    left: 0;
+}
+button:hover span:nth-child(2){
+    right: 0;
+}
+button:hover span:nth-child(3){
+    bottom: 0;
+}
+button:hover span:nth-child(4){
+    top: 0;
+}
+.wpp{
+    position: fixed;
+    bottom: 50px;
+    right: 60px;
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+}
+.caja_verde{
+    padding: 5px;
+    background-color: #03658C;
+    width: 600;
+    height: 400;
+
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture1{
+    height: 250px;
+    width: 500px;
+    padding: 12px;
+    border-radius: 40px;
+}
+.nos{
+    height: 250px;
+    width: 500px;
+    padding: 12px;
+    border-radius: 40px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer */
+.pie_de_pagina{
+    width: 100%;
+    height: 350px;
+    background-color:whitesmoke;
+}
+.pie_de_pagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding:45px 0px ;
+}
+.pie_de_pagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie_de_pagina .grupo1 .box figure img{
+    width: 250px;
+}
+.pie_de_pagina .grupo1 .box h2{
+    color: black;
+}
+
+.social{
+    padding: 1%;
+    width: 50px;
+    height: 50px;
+}
+.social2{
+    padding: 1%;
+    width: 150px;
+    height: 150px;
+}
+.pie_de_pagina .grupo1 .red_social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color:red ;
+    margin-right:10px ;
+    background-color:#50cafa;
+    text-align: center;
+}
+.grupo2{
+    text-align: center;
+}
+.K{
+    display: flex;
+    text-align: center;
+
+}
